@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr Rakhi Tutorials</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #f4f7fa;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(to right, #4facfe, #00f2fe);
+      padding: 2rem;
+      text-align: center;
+      color: white;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.25rem;
+    }
+    nav {
+      background: #ffffff;
+      padding: 1rem;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    nav a {
+      text-decoration: none;
+      color: #0077cc;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #005999;
+    }
+    .section {
+      padding: 3rem 10%;
+    }
+    .section h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #005999;
+    }
+    .about-split {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+    }
+    .subjects-list ul {
+      list-style: none;
+      padding: 0;
+      columns: 2;
+    }
+    .subjects-list li {
+      margin-bottom: 0.5rem;
+    }
+    .cta {
+      display: flex;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    .cta a {
+      padding: 0.75rem 1.5rem;
+      background: #00c6ff;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background 0.3s;
+    }
+    .cta a:hover {
+      background: #0099cc;
+    }
+    .achievements, .global, .contact {
+      background: #fff;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      border-radius: 12px;
+      padding: 2rem;
+      margin-top: 2rem;
+    }
+    .student-list li {
+      margin-bottom: 0.5rem;
+    }
+    .flags {
+      display: flex;
+      gap: 1rem;
+      margin-top: 1rem;
+      flex-wrap: wrap;
+    }
+    .flags img {
+      width: 40px;
+      transition: transform 0.3s;
+    }
+    .flags img:hover {
+      transform: scale(1.2);
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #005999;
+      color: white;
+      margin-top: 3rem;
+    }
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: none;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Dr Rakhi Tutorials</h1>
+    <p>Welcome to Tutorial Academy — where learning meets inspiration, and education goes global! 🌟</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#global">Global Presence</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="section" id="home">
+    <h2>Empowering Learners Worldwide</h2>
+    <p>
+      We are a passionate team of educators offering personalized, high-quality tutoring across a wide range of subjects. From English Literature to Mandarin, from Biology to Accounts — our goal is to empower every student to excel in their academic journey.
+    </p>
+    <div class="cta">
+      <a href="#contact">Book a Demo Class</a>
+      <a href="#about">Meet Our Teachers</a>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <h2>About Us</h2>
+    <div class="about-split">
+      <div>
+        <h3>Our Vision & Experience</h3>
+        <p>
+          At Dr Rakhi Tutorials, we don’t just teach — we build confidence, spark curiosity, and celebrate every success. Our experienced educators bring subjects to life through engaging sessions and real-time feedback.
+          With decades of combined experience, we cater to students from various boards including ICSE, CBSE, IGCSE, IB, and SSC.
+        </p>
+        <p>
+          We also offer nursing certification programs with practical experience and placement support — guiding learners to a future in healthcare.
+        </p>
+      </div>
+      <div class="subjects-list">
+        <h3>Subjects We Offer</h3>
+        <ul>
+          <li>English Language & Literature</li>
+          <li>History</li>
+          <li>Geography</li>
+          <li>Biology</li>
+          <li>Physics</li>
+          <li>Chemistry</li>
+          <li>Home Science</li>
+          <li>IT</li>
+          <li>Accounts</li>
+          <li>Hindi</li>
+          <li>Marathi</li>
+          <li>French</li>
+          <li>Spanish</li>
+          <li>Mandarin</li>
+          <li>English Speaking Classes</li>
+          <li>Nursing Certification with Placement</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section achievements" id="achievements">
+    <h2>Student Achievements</h2>
+    <p>We are proud of our students’ incredible performance across boards.</p>
+    <ul class="student-list">
+      <li><strong>Ananya Mehta</strong> – ICSE 10th – 94.6%</li>
+      <li><strong>Rahul Verma</strong> – CBSE 12th – 92.3%</li>
+      <li><strong>Sana Shaikh</strong> – IGCSE 10th – 95.2%</li>
+      <li><strong>Aditya Joshi</strong> – IB 12th – 40/45</li>
+      <li><strong>Nisha Pillai</strong> – SSC 10th – 91.8%</li>
+    </ul>
+  </section>
+
+  <section class="section global" id="global">
+    <h2>Our Global Presence</h2>
+    <p>
+      Our students hail from across the globe, making Dr Rakhi Tutorials a truly international learning community.
+    </p>
+    <div class="flags">
+      <img src="https://flagcdn.com/in.svg" alt="India">
+      <img src="https://flagcdn.com/ae.svg" alt="UAE (Dubai)">
+      <img src="https://flagcdn.com/sa.svg" alt="Saudi Arabia">
+      <img src="https://flagcdn.com/au.svg" alt="Australia">
+      <img src="https://flagcdn.com/sg.svg" alt="Singapore">
+    </div>
+  </section>
+
+  <section class="section contact" id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Address:</strong> 123 Education Lane, Mumbai, Maharashtra, India</p>
+    <p><strong>Phone:</strong> +91-9876543210</p>
+    <p><strong>Email:</strong> info@drrahkitutorials.com</p>
+    <p>
+      <a href="https://www.instagram.com/drrahkitutorials" target="_blank">Instagram</a> |
+      <a href="https://www.facebook.com/drrahkitutorials" target="_blank">Facebook</a>
+    </p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18..." allowfullscreen=""></iframe>
+  </section>
+
+  <footer>
+    &copy; 2025 Dr Rakhi Tutorials. All rights reserved.
+  </footer>
+</body>
+</html>
